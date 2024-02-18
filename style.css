@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(35, 41, 39, 0.937);
+}
+
+.wrapper,
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(19, 20, 20);
+}
+
+.card {
+  min-height: 36.6rem;
+  width: 24rem;
+  border-radius: 3%;
+  background-color: rgb(31, 34, 34);
+}
+
+img {
+  height: 100px;
+  width: 105px;
+  align-self: center;
+  border: 1px solid rgb(22, 20, 20);
+  border-radius: 50%;
+  margin: 1rem 0;
+}
+
+p {
+  align-self: center;
+  font-size: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+p:nth-child(2){
+font-size: 1.4rem;
+}
+
+p:nth-child(4) {
+  color: rgb(6, 159, 3);
+  font-size: 0.9rem;
+}
+
+p:nth-child(6) {
+  font-size: 0.9rem;
+}
+
+ul {
+  align-self: center;
+  margin-top: 0.5rem;
+}
+
+li {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 1.3rem auto 0 auto;
+  padding: 1rem 5.8rem 1rem 5.8rem;
+  list-style: none;
+  color: white;
+  border-radius: 2%;
+  background-color: rgba(68, 66, 64, 0.5);
+}
